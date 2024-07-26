@@ -1,0 +1,55 @@
+.task-card {
+  width:350px;
+  min-height: 100px;
+  border: 1px solid #dcdcdc;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px ;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ebebeb;
+}
+
+.task-text {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.task{
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+
+}
+.task-delete{
+  margin:5px;
+}
+.task-delete:hover {
+  background-color: #ebebeb;
+}
+.delete-icon {
+  cursor: pointer;
+  width: 20px;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
+}
+.edit-icon{
+  cursor: pointer;
+  width: 20px;
+  opacity: 50%;
+  transition: all 0.3s ease-in-out;
+}
+
+.task-delete:hover .delete-icon{
+    opacity: 80%;
+}
+button{
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgba(237, 194, 21, 0.84);
+  padding: 5px;
+  border-radius: 5px;
+  border:none;
+  color:white
+}
